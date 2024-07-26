@@ -54,17 +54,12 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "VK_ICD_FILENAMES"
-            value = "/Users/frdiaz/VulkanSDK/macOS/share/vulkan/icd.d/MoltenVK_icd.json"
+            value = "/Users/${USER}/VulkanSDK/macOS/share/vulkan/icd.d/MoltenVK_icd.json"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "VK_LAYER_PATH"
-            value = "/Users/frdiaz/VulkanSDK/macOS/share/vulkan/explicit_layer.d"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "IDEPreferLogStreaming"
-            value = "YES"
+            value = "/Users/${USER}VulkanSDK/macOS/share/vulkan/explicit_layer.d"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

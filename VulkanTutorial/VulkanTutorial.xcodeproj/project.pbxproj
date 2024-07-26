@@ -280,12 +280,12 @@
 				DEVELOPMENT_TEAM = 945H628CSP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/frdiaz/VulkanSDK/macOS/include,
+					"/Users/${USER}/VulkanSDK/macOS/include",
 					/opt/homebrew/Cellar/glfw/3.4/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/opt/homebrew/Cellar/glfw/3.4/lib,
-					/Users/frdiaz/VulkanSDK/macOS/lib,
+					"/Users/${USER}/VulkanSDK/macOS/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,12 +298,12 @@
 				DEVELOPMENT_TEAM = 945H628CSP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
-					/Users/frdiaz/VulkanSDK/macOS/include,
+					"/Users/${USER}/VulkanSDK/macOS/include",
 					/opt/homebrew/Cellar/glfw/3.4/include,
 				);
 				LIBRARY_SEARCH_PATHS = (
 					/opt/homebrew/Cellar/glfw/3.4/lib,
-					/Users/frdiaz/VulkanSDK/macOS/lib,
+					"/Users/${USER}/VulkanSDK/macOS/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
